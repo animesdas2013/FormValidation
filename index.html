@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <div class="wrapper" style="text-align: center;">
+        <div class="title" style="text-align: center;">
+            Registration Form
+        </div><br>
+
+        <!-- for form div -->
+        <div class="form"> <form name = "form" onsubmit="return validateForm()" action="success.html">
+            <!-- fname div -->
+            <div class="inputfield">
+                <label>First Name</label><br>
+                <input name="fname"type="text" class="input" placeholder="first name">
+            </div><br>
+            <!-- lname dive -->
+            <div class="inputfield">
+                <label>Last Name</label><br>
+                <input name="lname" type="text" class="input" placeholder="last name">
+            </div><br>
+            <!-- password div -->
+            <div class="inputfield">
+                <label>Password</label><br>
+                <input name = "password" type="password" class="input" placeholder="password">
+            </div><br>
+            <!-- security question div -->
+            <div class="inputfield"><label>Security Question </label><br><input name = "securityQuestion" type="text" class="input" placeholder="your pet name"></div><br>
+            
+            <!-- submit div -->
+            <div class="submitbtn"><button type="submit" class="registerbtn" name = "signup">Sign Up</button><div>
+        </form></div>
+
+        <script src="index.js"></script>
+</body>
+</html>
